@@ -1,0 +1,6 @@
+{
+  "name": "VerifiRent — Know Before You Rent",
+  "description": "Neighbourhood intelligence platform. Verified 0–100 Livability Scores, ground-truth physical inspections, and property verification before you sign a lease.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

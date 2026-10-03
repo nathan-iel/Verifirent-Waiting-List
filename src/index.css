@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --brand-blue: #08182B;
+    --brand-blue-deep: #050E1A;
+    --brand-blue-card: #0D2138;
+    --brand-blue-light: #16365C;
+    --brand-green: #10B981;
+    --brand-green-light: #34D399;
+    --brand-green-soft: #ECFDF5;
+    --brand-green-tint: #D1FAE5;
+  }
+
+  body {
+    background-color: #FFFFFF;
+    color: #08182B;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F1F5F9;
+}
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}
+
+/* Crisp grid pattern background utility */
+.bg-grid-pattern {
+  background-size: 32px 32px;
+  background-image: 
+    linear-gradient(to right, rgba(8, 24, 43, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(8, 24, 43, 0.04) 1px, transparent 1px);
+}
+
+.bg-grid-pattern-dark {
+  background-size: 32px 32px;
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+}
